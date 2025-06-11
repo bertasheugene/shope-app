@@ -60,8 +60,8 @@ export const Sort = React.memo(() => {
                 key={item.id}
                 to={
                   categoryId
-                    ? `/sort/${item.alias}/category/${categoryId}`
-                    : `/sort/${item.alias}`
+                    ? `/shope-app/sort/${item.alias}/category/${categoryId}`
+                    : `/shope-app/sort/${item.alias}`
                 }
                 onClick={() => onClickSort(item)}
               >

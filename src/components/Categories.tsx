@@ -26,7 +26,8 @@ export const Categories: React.FC = React.memo(() => {
     dispatch(setCategoryId(id));
   };
 
-  const baseSortPath = sortType !== "popularity" ? `/sort/${sortType}` : "";
+  const baseSortPath =
+    sortType !== "popularity" ? `/shope-app/sort/${sortType}` : "";
 
   return (
     <div className="categories">
