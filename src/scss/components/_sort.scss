@@ -1,0 +1,64 @@
+@use "../variables";
+
+.sort {
+  position: relative;
+  &__label {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-right: 8px;
+    }
+
+    b {
+      margin-right: 8px;
+    }
+
+    span {
+      color: variables.$second;
+      border-bottom: 1px dashed variables.$second;
+      cursor: pointer;
+    }
+  }
+
+  &__popup {
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+    background: #ffffff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px 0;
+    transition: all 0.15s ease;
+    opacity: 1;
+    visibility: visible;
+
+    &_close {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    ul {
+      overflow: hidden;
+      li {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        a {
+          padding: 12px 20px;
+        }
+        &.active,
+        &:hover {
+          background: rgba(254, 95, 30, 0.05);
+        }
+
+        &.active {
+          font-weight: bold;
+          color: variables.$second;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "https://www.apple.com/v/iphone/compare/ai/images/overview/compare_iphone16_pro_black_titanium__bifcs0f1p0z6_large.jpg",
+    "title": "iPhone 16 Pro",
+    "memory": [
+      {
+        "size": "128GB",
+        "priceFactor": 0
+      },
+      {
+        "size": "256GB",
+        "priceFactor": 100
+      },
+      {
+        "size": "512GB",
+        "priceFactor": 300
+      }
+    ],
+    "colors": ["#bfa48f", "#f2f1ed", "#3c3c3d"],
+    "price": 999,
+    "category": 2,
+    "rating": 4
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://www.apple.com/v/iphone/compare/ai/images/overview/compare_iphone16_black__ck6xpqbw7fma_large.jpg",
+    "title": "iPhone 16",
+    "memory": [
+      {
+        "size": "128GB",
+        "priceFactor": 0
+      },
+      {
+        "size": "256GB",
+        "priceFactor": 100
+      },
+      {
+        "size": "512GB",
+        "priceFactor": 300
+      }
+    ],
+    "colors": ["#9aadf6", "#b0d4d2", "#f2adda", "#3c3c3d"],
+    "price": 799,
+    "category": 2,
+    "rating": 6
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://www.apple.com/v/iphone/compare/ai/images/overview/compare_iphone15_black__eyskuqjt4mye_large.jpg",
+    "title": "iPhone 15",
+    "memory": [
+      {
+        "size": "128GB",
+        "priceFactor": 0
+      },
+      {
+        "size": "256GB",
+        "priceFactor": 100
+      },
+      {
+        "size": "512GB",
+        "priceFactor": 300
+      }
+    ],
+    "colors": ["#9aadf6", "#b0d4d2", "#f2adda", "#3c3c3d"],
+    "price": 699,
+    "category": 2,
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://www.apple.com/v/iphone/compare/ai/images/overview/compare_iphone14_red__fb9ejjb211iu_large.jpg",
+    "title": "iPhone 14",
+    "memory": [
+      {
+        "size": "128GB",
+        "priceFactor": 0
+      },
+      {
+        "size": "256GB",
+        "priceFactor": 100
+      }
+    ],
+    "colors": ["#a0b4c7", "#e6ddeb", "#f9e479", "#3c3c3d", "#fc0324"],
+    "price": 499,
+    "category": 2,
+    "rating": 2
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://www.apple.com/v/iphone/compare/ai/images/overview/compare_iphone14_pro_space_black__bipnldk4hueu_large.jpg",
+    "title": "iPhone 14 Pro",
+    "memory": [
+      {
+        "size": "256GB",
+        "priceFactor": 100
+      }
+    ],
+    "colors": ["#594f63", "#f0f2f2", "#403e3d"],
+    "price": 599,
+    "category": 2,
+    "rating": 8
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://www.apple.com/v/mac/compare/ae/images/overview/compare_macbook_air_mx_midnight__bkojy0hvc3v6_large.jpg",
+    "title": "MacBook Air 13-in. (M4)",
+    "memory": [
+      {
+        "size": "256GB",
+        "priceFactor": 0
+      },
+      {
+        "size": "512GB",
+        "priceFactor": 100
+      },
+      {
+        "size": "1TB",
+        "priceFactor": 500
+      }
+    ],
+    "colors": ["#c8d8e0", "#f0e4d3", "#2e3642"],
+    "price": 999,
+    "category": 1,
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "imageUrl": "https://www.apple.com/v/mac/compare/ae/images/overview/compare_macbook_pro_14_silver__vhx3tykmuluu_large.jpg",
+    "title": "MacBook Pro 14-in. (M3)",
+    "memory": [
+      {
+        "size": "512GB",
+        "priceFactor": 0
+      },
+      {
+        "size": "1TB",
+        "priceFactor": 100
+      },
+      {
+        "size": "2TB",
+        "priceFactor": 500
+      }
+    ],
+    "colors": ["#7d7e80", "#f0f2f2"],
+    "price": 1299,
+    "category": 1,
+    "rating": 9
+  },
+  {
+    "id": 7,
+    "imageUrl": "https://www.apple.com/v/watch/compare/ag/images/overview/compare_watch_se_gen2_aluminum_silver__cvybwwt1hr0i_large.jpg",
+    "title": "Apple Watch SE (2nd generation)",
+    "colors": ["#1a2530", "#ccc4bc"],
+    "price": 199,
+    "category": 3,
+    "rating": 10
+  },
+  {
+    "id": 8,
+    "imageUrl": "https://www.apple.com/v/watch/compare/ag/images/overview/compare_watch_series_10_aluminum_jet_black__e3j9hbp2elkm_large.jpg",
+    "title": "Apple Watch Series 10",
+    "colors": ["#1a2530", "#ccc4bc"],
+    "price": 299,
+    "category": 3,
+    "rating": 10
+  },
+  {
+    "id": 9,
+    "imageUrl": "https://www.apple.com/v/watch/compare/ag/images/overview/compare_watch_ultra_2_titanium_black__dsta75z7pp0m_large.jpg",
+    "title": "Apple Watch Ultra 2",
+    "colors": ["#1a2530", "#ccc4bc"],
+    "price": 499,
+    "category": 3,
+    "rating": 7
+  }
+]
