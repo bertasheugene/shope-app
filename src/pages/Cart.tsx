@@ -115,7 +115,7 @@ export const Cart: React.FC = () => {
         </div>
         <div className="cart__bottom-buttons">
           <a
-            href="/"
+            href="/shope-app/"
             className="button button--outline button--add go-back-btn"
           >
             <svg

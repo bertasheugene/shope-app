@@ -7,7 +7,7 @@ export const CartEmpty: FC = () => {
     <div className="cart cart--empty">
       <h2>Basket empty</h2>
       <img src={cartEmptyImg} alt="Empty cart" />
-      <Link to="/" className="button button--black">
+      <Link to="/shope-app/" className="button button--black">
         <span>Main</span>
       </Link>
     </div>

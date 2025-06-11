@@ -12,17 +12,17 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<MainLayout />}>
+        <Route path="/shope-app/" element={<MainLayout />}>
           <Route index element={<Home />} />
-          <Route path="/sort/:sortType" element={<Home />} />
-          <Route path="/category/:categoryId" element={<Home />} />
+          <Route path="/shope-app/sort/:sortType" element={<Home />} />
+          <Route path="/shope-app/category/:categoryId" element={<Home />} />
           <Route
-            path="/sort/:sortType/category/:categoryId"
+            path="/shope-app/sort/:sortType/category/:categoryId"
             element={<Home />}
           />
-          <Route path="cart" element={<Cart />} />
+          <Route path="/shope-app/cart" element={<Cart />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="product/:id" element={<Product />} />
+          <Route path="/shope-app/product/:id" element={<Product />} />
         </Route>
       </Routes>
     </Router>
