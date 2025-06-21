@@ -19,7 +19,7 @@ export const Header: FC = () => {
     <div className="header">
       <div className="container">
         <div className="header__logo">
-          <Link to="/">
+          <Link to="/shope-app/">
             <img width="45" src={logo} alt="Pizza logo" />
           </Link>
 
@@ -30,7 +30,7 @@ export const Header: FC = () => {
         </div>
         {location.pathname !== "/shop-app/cart" && (
           <div className="header__cart">
-            <Link to="/cart">
+            <Link to="/shope-app/cart">
               <div className="button button--cart">
                 <span>{totalPrice} $</span>
                 <div className="button__delimiter"></div>
