@@ -28,7 +28,7 @@ export const Header: FC = () => {
             <p>the store of your dreams</p>
           </div>
         </div>
-        {location.pathname !== "/cart" && (
+        {location.pathname !== "/shop-app/cart" && (
           <div className="header__cart">
             <Link to="/cart">
               <div className="button button--cart">

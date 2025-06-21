@@ -38,7 +38,7 @@ export const Categories: React.FC = React.memo(() => {
               key={item.id}
               to={
                 baseSortPath +
-                `${+item.id ? "/category/" + item.id + "/" : "/"}`
+                `${+item.id ? "/shope-app/category/" + item.id + "/" : "/"}`
               }
               onClick={() => onClickCategory(item.id)}
             >
