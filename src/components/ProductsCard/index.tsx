@@ -35,6 +35,9 @@ export const ProductsCard: React.FC<Product> = ({
   }
 
   const handleAddToCart = () => {
+    console.log(memory, memoryItem);
+
+    const memoryItemData = memory ? memory[memoryItem] : false;
     dispatch(
       addToCart({
         id,
@@ -43,7 +46,7 @@ export const ProductsCard: React.FC<Product> = ({
         colors,
         category,
         color: colors[colorItem],
-        memory: memory[memoryItem],
+        memory: memoryItemData,
         price: priceItem,
       })
     );

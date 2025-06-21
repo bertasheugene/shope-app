@@ -28,10 +28,12 @@ declare type CartItemProps = {
   category: number;
   color: string;
   colors: string[];
-  memory: {
-    size: string;
-    priceFactor: number;
-  };
+  memory:
+    | {
+        size: string;
+        priceFactor: number;
+      }
+    | false;
   price: number;
   quantity: number;
 };
